@@ -2,6 +2,7 @@
 @source "../components/**/*.tsx";
 @source "../app/**/*.tsx";
 
+@variant dark (&:where(.dark, .dark *));
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;

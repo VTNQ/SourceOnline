@@ -1,4 +1,4 @@
-package com.aot.be.service.impl;
+package com.aot.be.services.impl;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.SignatureAlgorithm;

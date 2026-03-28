@@ -1,8 +1,8 @@
-package com.aot.be.service.impl;
+package com.aot.be.services.impl;
 
 import com.aot.be.entities.core.User;
-import com.aot.be.repository.UserRepository;
-import com.aot.be.service.UserService;
+import com.aot.be.repositories.UserRepository;
+import com.aot.be.services.UserService;
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.security.core.userdetails.UserDetails;

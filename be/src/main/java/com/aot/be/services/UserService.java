@@ -1,4 +1,4 @@
-package com.aot.be.service;
+package com.aot.be.services;
 
 import org.springframework.security.core.userdetails.UserDetailsService;
 

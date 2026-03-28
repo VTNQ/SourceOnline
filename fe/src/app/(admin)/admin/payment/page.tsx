@@ -1,6 +1,6 @@
-import PaymentFilter from "@/components/payment/PaymentFilter";
-import Sidebar from "@/components/Sidebar";
-import TopHeader from "@/components/TopHeader";
+import PaymentFilter from "@/components/(admin)/payment/PaymentFilter";
+import Sidebar from "@/components/(admin)/Sidebar";
+import TopHeader from "@/components/(admin)/TopHeader";
 import DataTable from "@/ui/DataTable";
 import {
   Calendar,
@@ -89,12 +89,7 @@ export default function PaymentPage() {
     },
   ];
   return (
-    <div className="flex bg-[#F8F9FA] min-h-screen">
-      <Sidebar />
-      <div className="flex-1 ml-64 min-h-screen">
-        <TopHeader />
-        <main className="p-8 space-y-6 bg-gray-50 min-h-screen">
-          <div className="p-8  min-h-screen space-y-6">
+       <div className="p-8  min-h-screen space-y-6">
             <div className="flex items-center justify-between">
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">Payments</h1>
@@ -159,8 +154,5 @@ export default function PaymentPage() {
               <DataTable columns={columns} data={data} />
             </div>
           </div>
-        </main>
-      </div>
-    </div>
   );
 }

@@ -1,4 +1,4 @@
-package com.aot.be.repository;
+package com.aot.be.repositories;
 
 import com.aot.be.entities.core.User;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,6 +1,6 @@
 package com.aot.be.configurations;
 
-import com.aot.be.service.UserService;
+import com.aot.be.services.UserService;
 import com.aot.be.service.impl.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

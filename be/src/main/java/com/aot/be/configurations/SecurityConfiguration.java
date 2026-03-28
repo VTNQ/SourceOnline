@@ -1,6 +1,6 @@
 package com.aot.be.configurations;
 
-import com.aot.be.service.UserService;
+import com.aot.be.services.UserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;

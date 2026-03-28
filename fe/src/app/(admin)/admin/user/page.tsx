@@ -1,8 +1,8 @@
 "use client";
-import Sidebar from "@/components/Sidebar";
-import TopHeader from "@/components/TopHeader";
-import StatsCard from "@/components/user/StatsCard";
-import TableFilter from "@/components/user/TableFilter";
+import Sidebar from "@/components/(admin)/Sidebar";
+import TopHeader from "@/components/(admin)/TopHeader";
+import StatsCard from "@/components/(admin)/user/StatsCard";
+import TableFilter from "@/components/(admin)/user/TableFilter";
 import DataTable from "@/ui/DataTable";
 import { Download, UserPlus } from "lucide-react";
 
@@ -34,11 +34,7 @@ const users = [
 ];
 export default function UsersPage() {
   return (
-    <div className="flex bg-[#F8F9FA] min-h-screen">
-      <Sidebar />
-      <div className="flex-1 ml-64 min-h-screen">
-        <TopHeader />
-        <main className="p-8 space-y-6 bg-gray-50 min-h-screen">
+      <div className="p-8  min-h-screen space-y-6">
           <div className="flex items-start justify-between">
             <div>
               <h1 className="text-2xl font-bold text-gray-900">
@@ -70,8 +66,6 @@ export default function UsersPage() {
           </div>
           <TableFilter />
           <DataTable columns={columns} data={users} />
-        </main>
-      </div>
     </div>
   );
 }

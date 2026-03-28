@@ -1,12 +1,12 @@
-import Sidebar from "@/components/Sidebar";
-import TopHeader from "@/components/TopHeader";
-import StatsRow from "@/components/StatsRow";
-import RevenueChart from "@/components/RevenueChart";
-import PopularCategories from "@/components/PopularCategories";
-import PendingSessions from "@/components/PendingSessions";
-import CourseQueue from "@/components/CourseQueue";
-import ScheduleConflicts from "@/components/ScheduleConflicts";
-import PlatformPerformance from "@/components/PlatformPerformance";
+import Sidebar from "@/components/(admin)/Sidebar";
+import TopHeader from "@/components/(admin)/TopHeader";
+import StatsRow from "@/components/(admin)/StatsRow";
+import RevenueChart from "@/components/(admin)/RevenueChart";
+import PopularCategories from "@/components/(admin)/PopularCategories";
+import PendingSessions from "@/components/(admin)/PendingSessions";
+import CourseQueue from "@/components/(admin)/CourseQueue";
+import ScheduleConflicts from "@/components/(admin)/ScheduleConflicts";
+import PlatformPerformance from "@/components/(admin)/PlatformPerformance";
 
 export default function DashboardPage() {
   return (

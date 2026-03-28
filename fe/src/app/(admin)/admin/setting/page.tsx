@@ -1,5 +1,5 @@
-import Sidebar from "@/components/Sidebar";
-import TopHeader from "@/components/TopHeader";
+import Sidebar from "@/components/(admin)/Sidebar";
+import TopHeader from "@/components/(admin)/TopHeader";
 import {
   Bell,
   Moon,
@@ -12,11 +12,7 @@ import {
 
 export default function SettingsPage() {
   return (
-   <div className="flex bg-[#F8F9FA] min-h-screen">
-    <Sidebar/>
-    <div className="flex-1 ml-64 min-h-screen">
-      <TopHeader/>
-       <div className="p-8 bg-gray-50 min-h-screen space-y-6">
+      <div className="p-8 bg-gray-50 min-h-screen space-y-6">
       <div>
         <h1 className="text-2xl font-bold text-gray-900">Settings</h1>
         <p className="text-sm text-gray-500">
@@ -183,8 +179,6 @@ export default function SettingsPage() {
           </div>
         </div>
       </div>
-    </div>
-    </div>
-   </div>
+    </div>  
   );
 }
